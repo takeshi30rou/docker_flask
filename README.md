@@ -1,4 +1,12 @@
 # docker_flask
+docker上でflaskによる簡単なwebアプリケーションのデモ  
+以下のキーワドの技術を含んでいる
+- docker
+- python
+- flask
+- html
+- css
+- template engine
 
 ### 起動
 
@@ -20,6 +28,11 @@ docker-compose up -d --build
 docker-compose stop
 ```
 
+### コンテナの中で作業をする
+```cmd
+docker-compose exec flask bash
+```
+コマンド中のflaskは、docker-compose.ymlで指定したコンテナ名
 ### 再起動
 ```cmd
 docker-compose restart
