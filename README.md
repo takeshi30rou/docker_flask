@@ -1,6 +1,6 @@
 # docker_flask
 docker上でflaskによる簡単なwebアプリケーションのデモ  
-以下のキーワドの技術を含んでいる
+以下のキーワードの技術を含んでいる
 - docker
 - python
 - flask
