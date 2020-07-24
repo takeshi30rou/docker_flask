@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html lang="jp">
-<head>
-    <meta charset="UTF-8">
-    <title>Result</title>
-    <link rel="stylesheet" href="/static/hello.css">
-</head>
-<body>
-    <h2>あなたが入力したのは</h2>
-    <p>{{a}}</p>
+{% extends "base.html" %}
 
-    <a href="/">戻る</a>
-</body>
-</html>
+{% block page_content %}
+
+<form>
+    <div class="form-group">
+        <label>あなたが入力したのは</label>
+        <input type="text" readonly class="form-control" value="{{a}}">
+    </div>
+    <a href="/" class="btn btn-primary">戻る</a>
+</form>
+
+{% endblock %}

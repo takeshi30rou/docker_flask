@@ -1,12 +1,13 @@
 # docker_flask
 docker上でflaskによる簡単なwebアプリケーションのデモ  
 以下のキーワードの技術を含んでいる
-- docker
-- python
-- flask
-- html
-- css
-- template engine
+- Docker
+- Python
+- Flask
+- Flask-Bootstrap
+- HTML
+- ~~CSS~~
+- jinja2
 
 ### 起動
 
