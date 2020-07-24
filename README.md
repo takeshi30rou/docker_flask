@@ -39,8 +39,8 @@ docker-compose exec flask bash
 ```cmd
 docker-compose restart
 ```
-もしくは、docker-compose.ymlに
+### 初期化
+```cmd
+docker-compose down
 ```
-restart: always
-```
-を記述する
+イメージ、コンテナ、ボリューム、ネットワークをすべて削除する。
