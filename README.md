@@ -1,6 +1,6 @@
 # docker_flask
-docker上でflaskによる簡単なwebアプリケーションのデモ
-<img width="384" alt="screenshot20200725" src="https://user-images.githubusercontent.com/31844364/88418122-09fae600-ce1e-11ea-8649-ba799f971fb2.png">  
+docker上でflaskによる簡単なwebアプリケーションのデモ  
+<img width="380" alt="screenshot20200725" src="https://user-images.githubusercontent.com/31844364/88418122-09fae600-ce1e-11ea-8649-ba799f971fb2.png">  
 以下のキーワードの技術を含んでいる
 - Docker
 - Python
