@@ -17,7 +17,7 @@ def receive():
     result = request.form
     text = str(result["text"])
 
-    return render_template("result.html", a=text)
+    return render_template("result.html", text=text)
 
 
 if __name__ == "__main__":
